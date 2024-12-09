@@ -1,0 +1,39 @@
+/* 
+Color palette
+background 1: #FFFFFF
+background 2: #FFE964
+RGB 255, 233, 10
+background 3: #FF523D
+background 4: #223C88
+text: #000000
+
+Fonts
+Roboto Normal - for regular text
+Roboto Bold - for bold text
+Roboto Heavy - for headings
+*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #fff;
+  background-color: #fff;
+  background-color: green;
+}
+
+.container {
+  max-width: 120rem;
+}
